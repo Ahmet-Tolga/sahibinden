@@ -1,12 +1,13 @@
 body{margin: auto;font: 12px "Lucida Grande","LucidaGrande",Arial,sans-serif;}
-.navbar{width: 100%;height: 60px;position: absolute;background-color: rgb(64, 64, 105);display: flex;flex-direction: row;align-items: center;justify-content: center; top: 0px;left: 0px;right: 0px;}
+.navbar{width: 100%;height: 60px;position: absolute;background-color: #3F475F;display: flex;flex-direction: row;align-items: center;justify-content: center; top: 0px;left: 0px;right: 0px;}
 .navbar h1{display: flex;align-items: center;justify-content: center;position: absolute;left: 80px;width: 170px;height: 35px;background-color: rgb(252, 252, 11);font-size: 22px;color: black;}
-.navbar a{display: flex;flex-direction: row;position: absolute;left: 350px;width: 300px;height: 40px;background-color: rgb(19, 19, 49);text-decoration: none;align-items: center;}
-.navbar a input{background-color: rgb(19, 19, 49);border: none;width: 300px;height: 40px;color: rgb(179, 175, 175);}
+.navbar a{display: flex;flex-direction: row;position: absolute;left: 350px;width: 300px;height: 40px;background-color: #2F3546;text-decoration: none;align-items: center;}
+.navbar a input{background-color: #2F3546;border: none;width: 300px;height: 40px;color: rgb(179, 175, 175);}
 .navbar h2{position: absolute;left: 675px;font-size: 12px;color:white;}
 .navbar h3{position: absolute;left: 900px;font-size: 12px;color: rgb(231, 214, 214);}
-.navbar h4{display: flex;align-items: center;justify-content: center;position: absolute;left: 1100px;font-size: 12px;color: white;width: 150px;height: 35px;background-color: rgb(127, 127, 255);}
+.navbar h4{display: flex;align-items: center;justify-content: center;position: absolute;left: 1100px;font-size: 12px;color: white;width: 150px;height: 35px;background-color: #489AF1;}
 .navbar a i{display: flex;padding-right: 10px;width: 20px;height: 40px;align-items: center;justify-content: center;}
+#searchic{color:  rgb(179, 175, 175);}
 
 .navbar h5{position: relative;left: 325px;color: rgb(231, 214, 214);font-size: 12px;}
 .btn2:hover{background-color: rgb(116, 116, 216);cursor: pointer;}
@@ -20,7 +21,7 @@ body{margin: auto;font: 12px "Lucida Grande","LucidaGrande",Arial,sans-serif;}
 .k:hover{cursor: pointer;text-decoration: underline;}
 .l:hover{cursor: pointer;text-decoration: underline;}
 .side{position: absolute;top: 330px;left: 100px;}
-.side a{color: blue;text-decoration: none;display: flex;line-height: 20px;align-items: center;padding-bottom: 5px;padding-top: 4px;font-size: 13px;}
+.side a{color: #003399;text-decoration: none;display: flex;line-height: 20px;align-items: center;padding-bottom: 5px;padding-top: 4px;font-size: 13px;}
 .side a:hover{cursor: pointer;text-decoration: underline;}
 #t1{height: 27px;width: 27px;border-radius: 27px;background-color: grey;display: flex; align-items: center;justify-content: center;color: white;line-height: 20px;}
 #t2{height: 27px;width: 27px;border-radius: 27px;background-color: yellow;display: flex; align-items: center;justify-content: center;color: black;line-height: 20px;}
